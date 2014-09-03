@@ -1,0 +1,460 @@
+@charset "utf-8";
+/*
+span.habla_conversation_person2.hbl_pal_remote_fg:before {
+    content: '';
+    display: inline-block;
+    background-image: url(https://www.facebook.com/rsrc.php/v2/yI/r/J38OHEkiKcH.png);
+    background-repeat: no-repeat;
+    background-size: 312px 577px;
+    background-position: -268px -155px;
+    content: '';
+    height: 36px;
+    left: -2px;
+    position: absolute;
+    top: -2px;
+    width: 36px;
+}*/
+
+.hbl_body_message{
+    
+}
+
+#habla_window_div #habla_oplink_a:before {
+    content:'';
+    background-image: url(https://www.facebook.com/rsrc.php/v2/yI/r/J38OHEkiKcH.png);
+    background-repeat: no-repeat;
+    background-size: 312px 577px;
+    background-position: left -324px;
+    display: inline-block;
+    margin-right: 1px;
+    width:13px;
+    height:13px;
+}
+
+#habla_window_div #habla_oplink_a {
+    color: white;
+    text-decoration: none;
+    font-size:12px !important;
+    font-weight:bold;
+    text-shadow: 0 -1px rgba(0, 0, 0, .25);
+    display:block !important;
+    padding: 4px 7px 7px !important;
+}
+
+#habla_window_div .habla_button{
+    margin-top:4px !important;
+}
+
+#habla_window_div .habla_button:hover{
+    background-color:transparent !important;
+}
+
+#habla_window_div p.habla_conversation_p_item {
+    background: transparent none repeat scroll 0 0;
+    color: black;
+    padding: 0;
+    margin: 0 0 -47px 24px !important;
+    padding: 0 0 5px 0;
+    text-indent: -20px;
+    overflow: visible;
+    clear: both;
+    position: relative;
+}
+
+#habla_window_div #habla_middle_div {
+    padding: 6px 0px 3px !important;
+}
+
+#habla_window_div #habla_conversation_div {
+    padding: 6px 0 0 !important;
+    margin: -6px 0 0 !important;
+}
+
+#habla_both_div{
+    background-color:#edeff4 !important;
+    -moz-border-radius-topleft: 3px !important;
+    -moz-border-radius-topright: 3px !important;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+}
+
+#habla_window_div .habla_conversation_div {
+    background-color:#edeff4 !important;
+}
+
+#habla_window_div.olrk-fixed-bottom .habla_panel_border, #habla_window_div.olrk-fixed-bottom #habla_topbar_div {
+    -moz-border-radius-topleft: 3px !important;
+    -moz-border-radius-topright: 3px !important;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .5) !important;
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, .5) !important;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .5) !important;
+}
+
+#habla_window_div [class*="span"]{
+    
+}
+
+#habla_conversation_div .habla_conversation_person1+span {
+    float:right !important;
+    padding: 4px 5px 3px 6px;
+    background-color: #dbedfe;
+    background-image: -webkit-gradient(linear, center bottom, center top, from(#c7defe), to(#e7f1fe));
+    background-image: -webkit-linear-gradient(bottom, #c7defe, #e7f1fe);
+    background-image: url(/rsrc.php/v2/yn/r/57z4kK928BK.png) \0/;
+    margin-right: 9px;
+    left: auto;
+    right: 0;
+    top: auto;
+    line-height: 1.28;
+}
+#habla_window_div #habla_conversation_div .habla_conversation_person1+span:after {
+    background-position: -299px -541px;
+    left: 100%;
+}
+#habla_window_div #habla_conversation_div .habla_conversation_person1+span:before {
+    left: 100%;
+    background-color: #dbedfe;
+    background-image: -webkit-gradient(linear, center bottom, center top, from(#c7defe), to(#e7f1fe));
+    background-image: -webkit-linear-gradient(bottom, #c7defe, #e7f1fe);
+    background-image: url(/rsrc.php/v2/yn/r/57z4kK928BK.png) \0/;
+}
+
+/* Text Bubble */
+#habla_window_div [class*="span"], #hbl_body_message {
+    float:left !important;
+    clear: both;
+    position: relative !important;
+    top: -38px;
+    left: 20px;
+    background-size: 100% 100%;
+    border: 1px solid #dfdfdf;
+    border: 1px solid rgba(0, 0, 0, .18);
+    border-bottom-color: rgba(0, 0, 0, .29);
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: 0 1px 0 #dce0e6;
+    color: #3e454c;
+    min-height: 14px;
+    padding: 4px 5px 3px 6px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    position: relative;
+    text-align: left !important;
+    text-shadow: rgba(255, 255, 255, .5) 0 1px 0;
+    word-wrap: break-word !important;
+    background: #fff;
+    text-indent: 0;
+    display: block;
+    font-size: 12px !important;
+    font-family: Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif !important;
+    line-height: 1.28;
+}
+
+#habla_window_div [class*="span"]:after {
+    right: 100%;
+    content: '';
+    position: absolute;
+    width: 8px;
+    background-image: url(https://www.facebook.com/rsrc.php/v2/yI/r/J38OHEkiKcH.png);
+    background-repeat: no-repeat;
+    background-size: 312px 577px;
+    background-position: -302px -260px;
+    background-repeat: no-repeat;
+    height: 13px;
+    top: 5px;
+}
+
+/* Welcome Profile Pic */
+#habla_conversation_div #hbl_body_message:before {
+    content: '';
+    background-image: url(https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/c2.0.100.100/p100x100/24164_373264832819_2980826_n.jpg?oh=451ed3f83801f95e435d5c17575ee58f&oe=546BB969&__gda__=1415716557_c7794746439e678a89aa88a620d5a8f6);
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    margin-top:10px;
+    margin-right:0px !important;
+    background-size: 34px 34px;
+    position:absolute;
+    left:-44px;
+    top:-15px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+/* Welcome bubble */
+#habla_conversation_div #hbl_body_message {
+    display: inline-block !important;
+    top: 7px !important;
+    left: 50px !important;
+    width: 180px !important;
+    background-size: 100% 100% !important;
+    border: 1px solid #dfdfdf !important;
+    border: 1px solid rgba(0, 0, 0, .18) !important;
+    border-bottom-color: rgba(0, 0, 0, .29) !important;
+    -webkit-border-radius: 4px !important;
+    -webkit-box-shadow: 0 1px 0 #dce0e6 !important;
+    color: #3e454c !important;
+    min-height: 14px !important;
+    padding: 4px 5px 3px 6px !important;
+    margin-bottom: 10px !important;
+    margin-right: 30px !important;
+    text-align: left !important;
+    text-shadow: rgba(255, 255, 255, .5) 0 1px 0 !important;
+    word-wrap: break-word !important;
+    text-indent: 0 !important;
+    font-size: 12px !important;
+    font-family: Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif !important;
+    line-height: 1.28 !important;
+    background-color:#fff !important;
+}
+
+#habla_conversation_div #hbl_body_message:after {
+    content: '';
+    width: 8px;
+    background-image: url(https://www.facebook.com/rsrc.php/v2/yI/r/J38OHEkiKcH.png);
+    background-repeat: no-repeat;
+    background-size: 312px 577px;
+    background-position: -302px -260px;
+    background-repeat: no-repeat;
+    height: 13px;
+    top: 5px;
+    left:-8px;
+    background-color:#fff;
+    position:absolute;
+}
+
+#hbl_body_message:after {
+    
+}
+
+#hbl_body_message {
+    content: '';
+    background-image: url(https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/c2.0.100.100/p100x100/24164_373264832819_2980826_n.jpg?oh=451ed3f83801f95e435d5c17575ee58f&oe=546BB969&__gda__=1415716557_c7794746439e678a89aa88a620d5a8f6);
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    margin-top:10px;
+    background-size: 34px 34px;
+    position:relative;
+    left:0px;
+    top:-6px;
+    float:left;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+/* Ashton Profile Pic */
+span.habla_conversation_person2.hbl_pal_remote_fg:before {
+    content: '';
+    background-image: url(https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/c2.0.100.100/p100x100/24164_373264832819_2980826_n.jpg?oh=451ed3f83801f95e435d5c17575ee58f&oe=546BB969&__gda__=1415716557_c7794746439e678a89aa88a620d5a8f6);
+    display: inline-block;
+    height: 29px;
+    width: 29px;
+    margin-top:10px;
+    background-size: 29px 29px;
+    position:relative;
+    left:-20px;
+    top:-12px;
+    float:left;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+/* */
+#habla_window_div .habla_conversation_p_item span:nth-child(1){
+    font-size:0px; !important;
+}
+
+#habla_window_div [class*="span"]:before {
+    right: 100%;
+    background-color: #f7f7f7;
+    background-image: -webkit-gradient(linear, center bottom, center top, from(#f2f2f2), to(#fff));
+    background-image: -webkit-linear-gradient(bottom, #f2f2f2, #fff);
+    background-image: url(https://www.facebook.com/rsrc.php/v2/yP/r/r6AE8iXybFG.png);
+    bottom: 0;
+    clip: rect(5px, 13px, 18px, 0);
+    top: 0;
+    content: '';
+    position: absolute;
+    width: 8px;
+}
+
+#habla_window_div #habla_chatform_form{
+    border-top: 1px solid rgba(29, 49, 91, .3) !important;
+    margin-left:0 !important;
+    padding-left:0 !important;
+}
+#habla_window_div #habla_input_div {
+    margin-left:0 !important;
+    width: auto !important;
+}
+
+#habla_window_div #habla_input_div .hbl_txt_wrapper {
+    padding: 5px;
+}
+
+#habla_window_div textarea#habla_wcsend_input {
+    border:0 !important;
+    color: black;
+    resize: none !important;
+    height: 14px !important;
+    -webkit-appearance: none !important;
+    -webkit-border-radius: 0 !important;
+    font-size: 12px !important;
+    cursor: auto !important;
+    padding: 0 !important;
+}
+
+#habla_expanded_div div:nth-child(2) {
+    visibility:hidden !important;
+    display:none !important;
+    opacity: 0 !important;
+}
+
+/* TopBar */
+#habla_window_div #habla_topbar_div {
+    background-color: #6d84b4 !important;
+    border: 1px solid rgba(0, 39, 121, .76) !important;
+    cursor: pointer !important;
+    background: #4b67a8 url(https://www.facebook.com/rsrc.php/v2/yt/r/D47CF9k_yA8.png) repeat-x 0 -29px !important;
+    font-size: 12px !important;
+    padding: 1px 4px 0px 2px !important;
+}
+
+.olrk-state-expanded .olrk-fixed-bottom a#habla_sizebutton_a:hover {
+    background-color:transparent !important;
+}
+
+.olrk-state-expanded .olrk-fixed-bottom a#habla_sizebutton_a {
+    background-position: -196px -386px !important;
+    background-image: url(https://www.facebook.com/rsrc.php/v2/yI/r/J38OHEkiKcH.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 312px 577px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 21px !important;
+    height: 21px !important;
+}
+
+#habla_window_div #habla_topbar_div:hover {
+    background-color: #4a66a7 !important;
+}
+
+#habla_window_div #habla_topbar_div:hover {
+    background-color: #4a66a7 !important;
+}
+
+body {
+    height: 100%;
+}
+#line {
+    display: block;
+    width: 850px;
+    margin: 80px auto 0;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+#initialContainer {
+    background: rgba(0, 0, 0, 0.85);
+    position: fixed;
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+}
+
+.topText {
+    position: absolute;
+    left: calc(50% + 60px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#topTextLine1 {
+    top: 15px;   
+    color: white;
+}
+
+#topTextLine2 {
+    top: 30px;
+}
+
+.centerText {
+    position: absolute;
+    margin: 0 auto;
+    display: table;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;    
+}
+
+#centerText1 {
+    opacity: 0;
+    top: 200px;
+    left: calc(50% - 341px);
+    font-size: 50px;
+    color: #9b9b9b;
+    font-family: Garamond;
+}
+
+#centerText2 {
+    opacity: 0;
+    color: #9b9b9b;
+    vertical-align: middle; 
+    text-align: center; 
+    width: 619px;
+    top: 300px; 
+    font-size: 15px;
+    left: calc(50% - 319px);
+}
+
+#centerText3 {
+    opacity: 0;
+    top: 405px;
+    left: calc(50% - 338px);
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+gray {
+    color: gray;
+}
+
+white {
+    color: white;
+}
+
+#remainingBody{
+    background: black;
+    position: fixed;
+    opacity: 0.8;
+    top: 80px;
+    width: 100%;
+    height: calc(100% - 80px);
+}
+
+#thornLogo {
+    position: absolute;
+    height: 50px;
+    top: 10px;
+    left: calc(50% - 420px);
+}
+
+body {
+    margin: 0px;
+    background: #1e1e1e;
+}
+
+.center {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+.container {
+    width: 100%;
+    float: left;
+    background:url(http://befreehelp.com/cv/butterfly_files/background.jpg);
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    margin-top: -180px;
+}
